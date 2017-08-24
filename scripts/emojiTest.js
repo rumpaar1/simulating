@@ -7,6 +7,9 @@
 // iOS & Andoid & Windows Phone: YES BUT THIS ISN'T MOBILE-FRIENDLY
 // Linux/Everything Else: SORRY
 
+// It's August 2017 and Chrome supports emoji now!
+// Time to revise the list.
+
 exports.IfDoesNotSupportEmoji = function(fail){
 
 	// Mac: EVERYTHING WORKS for 10.7 and higher
