@@ -4,13 +4,30 @@
 	src: url("fonts/Sniglet-Regular.otf") format("opentype");
 }
 
+/** Emoji Fonts **/
+
+@font-face {
+	font-family: "OpenSansEmoji";
+	src: url("styles/fonts/OpenSansEmoji.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Noto Color Emoji";
+	src: url("https://raw.githubusercontent.com/googlei18n/noto-emoji/master/fonts/NotoColorEmoji.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Noto Regular Emoji";
+	src: url("https://raw.githubusercontent.com/googlei18n/noto-emoji/master/fonts/NotoEmoji-Regular.ttf") format("truetype");
+}
+
 /** STANDARD TAG STUFF **/
 body{
 	
 	background: #fff;
 	margin:0;
 
-	font-family: 'OpenSansEmoji', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Noto Color Emoji', 'Noto Regular Emoji', 'OpenSansEmoji';
 	font-weight: 100;
 	font-size: 22px;
 
@@ -95,7 +112,7 @@ a:hover{
     left: 420px;
 }
 #splash_kiss{
-	font-family: 'OpenSansEmoji', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Noto Color Emoji', 'Noto Regular Emoji', 'OpenSansEmoji';
 }
 
 /** THE ESSAY **/
