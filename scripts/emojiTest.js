@@ -13,7 +13,7 @@
 exports.IfDoesNotSupportEmoji = function(fail){
 
 	// Mac: EVERYTHING WORKS for 10.7 and higher
-	if(platform.os.family=="OS X"){
+	/* if(platform.os.family=="OS X"){
 		var version = parseInt(platform.os.version.split(".")[1]);
 		if(version>=7){
 			return;
@@ -47,6 +47,8 @@ exports.IfDoesNotSupportEmoji = function(fail){
 
 	// Linux/Everything Else: SORRY
 	fail();
+	*/
+	return;
 
 };
 
